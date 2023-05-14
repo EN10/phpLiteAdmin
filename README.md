@@ -10,3 +10,8 @@ pip install termcolor
 mkdir -p /opt/cs50/phpliteadmin/
 mv ./share/ /opt/cs50/phpliteadmin/
 ```
+## Run
+```
+touch test.db
+python phpliteadmin.py test.db
+```
