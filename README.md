@@ -3,5 +3,6 @@ phpLiteAdmin on github codespaces
 
 ```
 pip install termcolor
-/opt/cs50/phpliteadmin/share/
+mkdir -p /opt/cs50/phpliteadmin/
+mv ./share/ /opt/cs50/phpliteadmin/
 ```
