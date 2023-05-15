@@ -20,7 +20,7 @@ pip install termcolor
 sudo apt update
 sudo apt install phpliteadmin -y
 # remove unneeded code
-rm ../phpLiteAdmin/ -fr
+rm /workspaces/codespaces-blank/phpLiteAdmin -fr
 ```
 ## Run
 ```
