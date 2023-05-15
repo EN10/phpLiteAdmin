@@ -16,9 +16,9 @@ chmod +x phpliteadmin.py
 # add to path, allows running by name only
 sudo mv phpliteadmin.py /usr/local/bin
 # install requirements
+pip install termcolor
 sudo apt update
 sudo apt install phpliteadmin -y
-pip install termcolor
 # remove unneeded code
 rm ../phpLiteAdmin/ -fr
 ```
