@@ -14,7 +14,7 @@ mv ./share/ /opt/cs50/phpliteadmin/
 # make phpliteadmin executable
 chmod +x phpliteadmin.py
 # add to path, allows running by name only
-mv phpliteadmin.py /usr/local/bin
+sudo mv phpliteadmin.py /usr/local/bin
 # install requirements
 sudo apt update
 sudo apt install phpliteadmin -y
