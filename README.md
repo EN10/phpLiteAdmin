@@ -5,10 +5,11 @@ phpLiteAdmin on github codespaces based on [cs50](https://github.com/cs50/codesp
 ## Install
 
 ```
-sudo apt install phpliteadmin
-pip install termcolor
+git clone https://github.com/eniompw/phpLiteAdmin
 mkdir -p /opt/cs50/phpliteadmin/
 mv ./share/ /opt/cs50/phpliteadmin/
+sudo apt install phpliteadmin
+pip install termcolor
 ```
 ## Run
 ```
