@@ -5,13 +5,17 @@ phpLiteAdmin on github codespaces based on [cs50](https://github.com/cs50/codesp
 ## Install
 
 ```
-sudo apt install phpliteadmin
-pip install termcolor
+git clone https://github.com/eniompw/phpLiteAdmin
+cd phpLiteAdmin
 mkdir -p /opt/cs50/phpliteadmin/
 mv ./share/ /opt/cs50/phpliteadmin/
+chmod +x phpliteadmin.py
+sudo apt update
+sudo apt install phpliteadmin
+pip install termcolor
 ```
 ## Run
 ```
 touch test.db
-python phpliteadmin.py test.db
+./phpliteadmin.py test.db
 ```
