@@ -19,6 +19,7 @@ mv phpliteadmin.py /usr/local/bin
 sudo apt update
 sudo apt install phpliteadmin
 pip install termcolor
+# remove unneeded code
 rm ../phpLiteAdmin/ -fr
 ```
 ## Run
