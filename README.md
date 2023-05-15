@@ -17,7 +17,7 @@ chmod +x phpliteadmin.py
 mv phpliteadmin.py /usr/local/bin
 # install requirements
 sudo apt update
-sudo apt install phpliteadmin
+sudo apt install phpliteadmin -y
 pip install termcolor
 # remove unneeded code
 rm ../phpLiteAdmin/ -fr
