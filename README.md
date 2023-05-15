@@ -15,11 +15,11 @@ mv ./share/ /opt/cs50/phpliteadmin/
 chmod +x phpliteadmin.py
 # add to path, allows running by name only
 mv phpliteadmin.py /usr/local/bin
-rm ../phpLiteAdmin/ -fr
 # install requirements
 sudo apt update
 sudo apt install phpliteadmin
 pip install termcolor
+rm ../phpLiteAdmin/ -fr
 ```
 ## Run
 ```
