@@ -10,6 +10,8 @@ cd phpLiteAdmin
 mkdir -p /opt/cs50/phpliteadmin/
 mv ./share/ /opt/cs50/phpliteadmin/
 chmod +x phpliteadmin.py
+mv phpliteadmin.py /usr/local/bin
+rm ../phpLiteAdmin/ -fr
 sudo apt update
 sudo apt install phpliteadmin
 pip install termcolor
@@ -17,5 +19,5 @@ pip install termcolor
 ## Run
 ```
 touch test.db
-./phpliteadmin.py test.db
+phpliteadmin.py test.db
 ```
