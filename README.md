@@ -23,8 +23,29 @@ pip install termcolor
 sudo apt update
 sudo apt install phpliteadmin -y
 ```
+
 ## Run
+```
+phpliteadmin
+usage: phpliteadmin [-h] path
+phpliteadmin: error: the following arguments are required: path
+```
 ```
 touch test.db
 phpliteadmin.py test.db
 ```
+
+## Investigation
+On cs50.dev
+```
+$ whereis phpliteadmin 
+phpliteadmin: /opt/cs50/bin/phpliteadmin
+$ ls /opt/cs50/bin/phpliteadmin 
+/opt/cs50/bin/phpliteadmin@
+$ readlink /opt/cs50/bin/phpliteadmin 
+/opt/cs50/phpliteadmin/bin/phpliteadmin
+```
+Python file points to:  
+``` 
+PHP_FILE = f'/opt/cs50/phpliteadmin/share/index.php'
+PHP_THEME = f'/opt/cs50/phpliteadmin/share/phpliteadmin.css'
