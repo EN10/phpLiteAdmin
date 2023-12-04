@@ -10,7 +10,7 @@ import termcolor
 import tempfile
 
 
-DEFAULT_HOST = '127.0.0.1'
+DEFAULT_HOST = '0.0.0.0'
 DEFAULT_PORT = 8082
 PHP_FILE = f'/opt/cs50/phpliteadmin/share/index.php'
 PHP_THEME = f'/opt/cs50/phpliteadmin/share/phpliteadmin.css'
