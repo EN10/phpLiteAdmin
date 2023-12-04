@@ -2,7 +2,7 @@
 git clone https://github.com/eniompw/phpLiteAdmin
 cd phpLiteAdmin
 # move linked php and css files
-mkdir -p /opt/cs50/phpliteadmin/
+sudo mkdir -p /opt/cs50/phpliteadmin/
 mv ./share/ /opt/cs50/phpliteadmin/
 # make phpliteadmin executable
 chmod +x phpliteadmin.py
