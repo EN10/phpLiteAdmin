@@ -3,14 +3,17 @@
 Install phpLiteAdmin on GitHub Codespaces based on [cs50](https://github.com/cs50/codespace/tree/main/opt/cs50/phpliteadmin)
 
 ## Install
-
+```
+curl -s https://raw.githubusercontent.com/eniompw/phpLiteAdmin/main/install.sh | bash
+```
+**OR**
 ```
 # download code files
 git clone https://github.com/eniompw/phpLiteAdmin
 cd phpLiteAdmin
 # move linked php and css files
-mkdir -p /opt/cs50/phpliteadmin/
-mv ./share/ /opt/cs50/phpliteadmin/
+sudo mkdir -p /opt/cs50/phpliteadmin/
+sudo mv ./share/ /opt/cs50/phpliteadmin/
 # make phpliteadmin executable
 chmod +x phpliteadmin.py
 # add to path, allows running by name only
@@ -22,6 +25,7 @@ cd ..
 pip install termcolor
 sudo apt update
 sudo apt install phpliteadmin -y
+sudo apt install python-is-python3 -y
 ```
 
 ## Run
