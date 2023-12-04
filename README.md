@@ -3,7 +3,10 @@
 Install phpLiteAdmin on GitHub Codespaces based on [cs50](https://github.com/cs50/codespace/tree/main/opt/cs50/phpliteadmin)
 
 ## Install
-
+```
+curl -s https://raw.githubusercontent.com/eniompw/phpLiteAdmin/main/install.sh | bash
+```
+**OR**
 ```
 # download code files
 git clone https://github.com/eniompw/phpLiteAdmin
