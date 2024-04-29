@@ -16,3 +16,4 @@ pip install termcolor
 sudo apt update
 sudo apt install phpliteadmin -y
 sudo apt install python-is-python3 -y
+alias pla=phpliteadmin.py
