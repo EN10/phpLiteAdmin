@@ -8,6 +8,8 @@ sudo mv ./share/ /opt/cs50/phpliteadmin/
 chmod +x phpliteadmin.py
 # add to path, allows running by name only
 sudo mv phpliteadmin.py /usr/local/bin
+# add pla symlink to phpliteadmin.py
+sudo ln -s /usr/local/bin/phpliteadmin.py /usr/local/bin/pla
 # remove unneeded code
 rm ../phpLiteAdmin -fr
 cd ..
@@ -16,3 +18,4 @@ pip install termcolor
 sudo apt update
 sudo apt install phpliteadmin -y
 sudo apt install python-is-python3 -y
+
