@@ -21,6 +21,7 @@ sudo mv ./share/ /opt/cs50/phpliteadmin/
 chmod +x phpliteadmin.py
 # add to path, allows running by name only
 sudo mv phpliteadmin.py /usr/local/bin
+sudo ln -s /usr/local/bin/phpliteadmin.py /usr/local/bin/pla
 # remove unneeded code
 rm ../phpLiteAdmin -fr
 cd ..
@@ -33,7 +34,10 @@ sudo apt install python-is-python3 -y
 
 ## Run
 ```
+pla filename.db  
+OR  
 phpliteadmin.py filename.db
+
 usage: phpliteadmin [-h] path
 phpliteadmin: error: the following arguments are required: path
 ```
